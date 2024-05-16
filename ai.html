@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="https://cdn.glitch.global/b04da27f-160e-4bbe-b63e-5f180b14c324/logo.png?v=1705739903821">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" id="theme" >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Inter:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+  <title>Artificial intelligence</title>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            
+            <div class="header-icon"><i   class="fa-solid fa-house"></i></div>
+            <div class="header-text" id="Address"></div>
+        </div>
+        <div class="header-top">
+            <div class="header-icon"><i   class="fa-solid fa-phone"></i></div>
+            <div class="header-text" >123 - 456 - 7890</div>
+        </div>
+        <div class="header-top">
+            <div class="header-icon"><i  class="fa-regular fa-clock"></i></div>
+            <div class="header-text" id="Time"></div>
+        </div>
+        <div class="social-media">
+            <p id="Follow"></p>
+            <a href="#" class="social-icon"><i  class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i  class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i  class="fa-brands fa-instagram"></i></a>
+        </div>
+    </header>
+    <div class="header">
+        <div class="logo"><img src="https://cdn.glitch.global/b04da27f-160e-4bbe-b63e-5f180b14c324/logo.png?v=1705739903821" alt=""></div>
+        <div class="mobile-toggle" id="mobileToggle">&#9776;</div>
+        <nav>
+          <ul>
+              <li><a href="index.html"  id="homeButton"></a></li>
+              <li><a href="aboutus.html" id="aboutButton"></a></li>
+              <li><a href="contact.html" class="active" id="contactButton"></a></li>
+              <li><a href="#" id="languageButton"></a></li>
+              <label class="switch">
+                  <input type="checkbox" id="themeToggle">
+                  <span class="slider_switch"></span>
+              </label>
+          </ul>
+      </nav>
+    </div>
+  <div id="sliderContainer" style="display: none;">
+    <img id="sliderImage" src="" >
+    <div id="imagePoints"></div>
+    <div id="prevArrow" onclick="previousImage()"><i class="fas fa-chevron-left"></i></div>
+    <div id="nextArrow" onclick="nextImage()"><i class="fas fa-chevron-right"></i></div>
+  </div>
+ 
+
+  <div class="container5" >
+
+    <div class="footer-logo" style="float: right;">
+        <img src="https://cdn.glitch.global/b04da27f-160e-4bbe-b63e-5f180b14c324/logo.png?v=1705739903821" alt="شعار الشركة">
+        <h1 id="Welcome"></h1>
+        <p id="feedback"></p>
+    </div>
+    <div class="footer-links">
+        <div class="footer-link-group">
+          <a href="index.html"  id="home"></a>
+          <a href="aboutus.html" id="about"></a>
+          <a href="contact.html" id="contact"></a>
+            
+        </div>
+    </div>
+    <div class="footer-links">
+        <div class="footer-link-group">
+          <a href="it.html" id="IT_footer"></a>
+          <a href="web.html" id="Web_footer"></a>
+          <a href="mobileApp.html" id="Mobile_app_footer"></a>
+          <a href="ai.html" id="AI_footer"></a>
+            <div class="social-media-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/m.hub.ae/"><i class="fab fa-instagram"></i></a>
+              <a href="https://twitter.com/mhubae2023" ><i class="fab fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/company/the-hub-for-general-maintenance" ><i class="fab fa-linkedin"></i></a>
+              </div>
+              <div class="our_app">
+                <img src="https://cdn.glitch.global/b04da27f-160e-4bbe-b63e-5f180b14c324/Android?v=1706186804311" alt="Android " >
+                <img src="https://cdn.glitch.global/b04da27f-160e-4bbe-b63e-5f180b14c324/Apple?v=1706186796413" alt="Apple">
+            </div>
+        </div>
+    </div>
+    <div class="footer-map">
+      <div id="map"></div>
+    </div>       
+  </div>
+  <footer>
+  <div class="footer-text" id="Copyright">
+  
+  </div>
+  </footer>
+</body>
+</html>
+
