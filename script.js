@@ -1,6 +1,6 @@
 /* اسليد الصور المتحركه  */
 var currentImageIndex = 0;
-var imageSources = ["https://cdn.glitch.global/b04da27f-160e-4bbe-b63e-5f180b14c324/1.jpeg?v=1708087592179", "https://cdn.glitch.global/b04da27f-160e-4bbe-b63e-5f180b14c324/4.jpeg?v=1708087957607", "https://cdn.glitch.global/b04da27f-160e-4bbe-b63e-5f180b14c324/3.jpeg?v=1708087949566" , "https://cdn.glitch.global/b04da27f-160e-4bbe-b63e-5f180b14c324/2.png?v=1708087637430" , "https://cdn.glitch.global/b04da27f-160e-4bbe-b63e-5f180b14c324/5.jpeg?v=1708087965529" , "https://cdn.glitch.global/b04da27f-160e-4bbe-b63e-5f180b14c324/6.jpeg?v=1708087682808"];
+var imageSources = ["image/1.jpeg", "image/2.png", "image/3.jpeg" , "image/4.jpeg" , "image/5.jpeg" , "image/6.jpeg"];
 
 function changeImage(index) {
     document.getElementById("sliderImage").src = imageSources[index];
