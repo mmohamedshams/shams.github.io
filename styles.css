@@ -518,7 +518,7 @@ header {
   margin-right: 150px;
 }
 
-.container5 h1{
+.container5 {
     font-size: 10px;
 }
 .footer-logo p{
@@ -644,6 +644,9 @@ h1 {
       color: white;
       text-decoration: none;
       font-size: 18px;
+    }
+    .container5{
+        display: none;
     }
   }
   
