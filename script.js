@@ -193,7 +193,7 @@ $(document).ready(function(){
   }, 20);
 });
 /*   الصور و الكلام المتحرك جنبها */
-const images = ["https://cdn.glitch.global/b04da27f-160e-4bbe-b63e-5f180b14c324/IT_1.jpeg?v=1708088049512", "https://cdn.glitch.global/b04da27f-160e-4bbe-b63e-5f180b14c324/Web%20site_1.jpeg?v=1708088150589", "https://cdn.glitch.global/b04da27f-160e-4bbe-b63e-5f180b14c324/Mobile%20App_1.jpeg?v=1708088077823", "https://cdn.glitch.global/b04da27f-160e-4bbe-b63e-5f180b14c324/AI_1.jpeg?v=1708088040615"];
+const images = ["image/IT_1.jpeg", "image/Web site_1.jpeg", "image/Mobile App_1.jpeg", "image/AI_1.jpeg"];
 const titles = [
   "IT",
   "Web Site",
